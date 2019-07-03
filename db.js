@@ -1,2 +1,2 @@
-var mongoose = require("mangoose");
+var mongoose = require("mongoose");
 mongoose.connect("mongodb://");
