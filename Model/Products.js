@@ -3,7 +3,7 @@ var mongoose = require("mongoose");
 var productSchema = new mongoose.Schema({
 
     productName : String,
-    brand:String,
+    brand:Number,
     price: Number
 });
 

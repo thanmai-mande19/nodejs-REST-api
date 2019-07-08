@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+
+    <style type="text/css">
+
+        .body{
+            background-color: black;
+            color: Red;
+        }
+
+    </style>
+
+
+</head>
+<body class="body">
+
+<h1><b><u>Welcome to The Calculator</u></b></h1>
+
+<p>
+    <form action="calculator" method="post">
+        Number 1: <input type="text" id="t1" value=<%= num1 %> name="num1">
+
+<p>
+    Number 2 :<input type="text" id="t2" value=<%= num2 %> name="num2">
+</p>
+
+
+<p>
+
+    <select name="op" id="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="*">*</option>
+    </select>
+
+&nbsp; &nbsp;
+    <input type="submit" value="Calculate">
+
+</p>
+
+Answer :    <input type="text" value=<%= num3 %>>
+
+
+
+</p>
+</form>
+
+
+</p>
+
+
+</body>
+</html>
